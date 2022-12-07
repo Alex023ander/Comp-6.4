@@ -4,7 +4,7 @@ public static void main(String[] args) {
 		//runs 100 times
 	int numOfBottles = 100;
 
-	// do loop that loops through the first 5 verses of "One Hundred Bottles of Beer"
+	// Loops and prints out the first 10 verses of the song
 	do 
 	{
 		System.out.println(numOfBottles 
@@ -16,6 +16,6 @@ public static void main(String[] args) {
 		+ " bottles of beer on the wall\n");
 		numOfBottles -= 1;
 	}
-	while (numOfBottles > 95);
+	while (numOfBottles > 90);
     }
 }
